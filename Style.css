@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Charter BT", sans-serif; 
+ /* font-family: cursive; */
+}
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+}
+
+.nav {
+  /*position: fixed;*/
+  width: 25vw;
+  /* height: 100%; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color:#5680E9;
+}
+
+.content {
+  width: 65vw;
+  padding: 1rem 5rem;
+}
+
+.start {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: larger;
+  color: #C1C8E4;
+}
+
+.input-place p {
+  color:  #C1C8E4;
+  font-size: larger;
+}
+.form {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+}
+
+.form button {
+  width: 5.5rem;
+  height: 1.5rem;
+  border: none;
+  background-color: #43227f;
+  color: #C1C8E4;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #C1C8E4;
+  color: #430fa2;
+}
+/* .form button {
+  width: 5rem;
+  background-color: #5AB9EA;
+  color:  #C1C8E4;
+  border: none;
+} */
+.buttons {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+
+#forecast {
+  margin-top: 2rem;
+  height: 2.2rem;
+}
+#n_days {
+  height: 2rem;
+  margin-top: 2rem;
+}
+.buttons button {
+  width: 7.5rem;
+  height: 2.5rem;
+  border: none;
+  background-color: #43227f;
+  color: #C1C8E4;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #C1C8E4;
+  color: #430fa2;
+}
+
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header p {
+  font-size: rem;
+  margin-left: 3rem;
+  line-height: 80%;
+}
+/* Apply styles to the elements by their id */
+
+#company-info-output {
+  /* Add styles to the container holding company information */
+  padding: 20px;
+  background-color: #d7e9ed;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#company-info-output label {
+  /* Style labels within the container */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#company-info-output input[type="text"],
+#company-info-output textarea {
+  /* Style input fields and textarea within the container */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; 
+  /* border: 1px solid #b4c035;
+  border-radius: 4px; */
+  box-sizing: border-box;
+}
+#company-info-output textarea {
+  /* Style textarea specifically */
+  height: 150px; /* Adjust the height as needed */
+}
+#company-info-output button {
+  /* Style buttons within the container */
+  width: 5rem;
+  background-color: #5AB9EA;
+  color:  #C1C8E4;
+  border: none;
+}
+#company-info-output p {
+  /* Style the message when company information is not available */
+  color: red;
+  font-weight: bold;
+  margin-top: 10px; 
+}
