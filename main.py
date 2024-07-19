@@ -68,7 +68,7 @@ def get_company_info(stock_code, api_key):
         return None
 
 # Replace 'YOUR_API_KEY' with your Alpha Vantage API key
-api_key = 'E5G3MUB5E0WQT9JN'
+api_key = 'Alpha key'
 
 server = app.server
 # html layout of site
