@@ -12,7 +12,7 @@ import plotly.express as px
 from alpha_vantage.timeseries import TimeSeries
 # model
 from model import prediction
-api_key = 'E5G3MUB5E0WQT9JN'
+api_key = 'Alpha key'
 av = TimeSeries(key=api_key)
 
 def get_stock_price_fig(df):
